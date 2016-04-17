@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$("#header_des").hover(
+		function(){
+			$("#header_des_top").text("resume");
+			$("#header_des_bottom").text("前端工程师");
+		},
+		function(){
+			$("#header_des_top").text("丁文丽");
+			$("#header_des_bottom").text("个人简历");
+		})
+});
