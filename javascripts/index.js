@@ -23,7 +23,7 @@ $(document).ready(function(){
 					$(".title_en h2").slideDown(400);
 				});
 	$('#dowebok').fullpage({
-		sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+		sectionsColor: ['#1bbc9b', '#1bbc9b', '#1bbc9b','#1bbc9b','#1bbc9b','#1bbc9b'],
 		'navigation': true,
 	});
 
