@@ -472,7 +472,7 @@ img#home_photo2 {
     height: 178px;
     padding: 20px 0;
     border-radius: 30px;
-    background: #a0a0b4;
+    background: rgba(225,225,228,0.2);
 }
 .about_list {
     float: left;
@@ -560,14 +560,14 @@ img#home_photo2 {
 #about_info:before {
     top: 0;
     left: 0;
-    border-top: 2px solid #5686D6;
-    border-left: 2px solid #5686D6;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
 }
 #about_info:after {
     bottom: 0;
     right: 0;
-    border-right: 2px solid #5686D6;
-    border-bottom: 2px solid #5686D6;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
 }
 #about_info p {
     text-align: center;
