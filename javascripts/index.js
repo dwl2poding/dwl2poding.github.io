@@ -19,12 +19,21 @@ $(document).ready(function(){
     		$("#home_photo2").animate({opacity:"0"});
     	}
     );
-    $(".title_en").animate({width:"130px"},800,function(){
-					$(".title_en h2").slideDown(400);
-				});
+    $(".skill_scale").hover(
+    	function(){
+    		$(this).children(".skill_flag").addClass("skill_flag_scale");
+    		$(this).children(".skill_int").show();
+    	},
+    	function(){
+			$(this).children(".skill_flag").removeClass("skill_flag_scale");
+			$(this).children(".skill_int").hide();
+    	}
+    );
+
 	$('#dowebok').fullpage({
-		sectionsColor: ['#1bbc9b', '#1bbc9b', '#1bbc9b','#1bbc9b','#1bbc9b','#1bbc9b'],
+		sectionsColor: ['#1bbc9b','#1bbc9b','#1bbc9b','#1bbc9b','#1bbc9b','#1bbc9b'],
 		'navigation': true,
+
 	});
 
 });
